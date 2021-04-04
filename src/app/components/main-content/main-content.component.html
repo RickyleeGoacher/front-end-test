@@ -1,1 +1,43 @@
-<p>main-content works!</p>
+<main>
+  <h2>Enhance Your Home</h2>
+  <section class="section">
+    <div class="main-image">
+      <img [src]="primaryMainContentImage.image" [alt]="primaryMainContentImage.text" />
+      <div class="overlay">
+        <div class="text">
+          <span>{{ primaryMainContentImage.text}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <div class="image-wrapper" *ngFor="let category of imageSetOne;">
+        <img [src]="category.image" [alt]="category.text" />
+        <div class="overlay">
+          <div class="text">
+            <span>{{category.text}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sectionTwo">
+    <div class="image-container">
+      <div class="image-wrapper" *ngFor="let category of imageSetTwo;">
+        <img [src]="category.image" [alt]="category.text" />
+        <div class="overlay">
+          <div class="text">
+            <span>{{category.text}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-image">
+      <img [src]="secondaryMainContentImage.image" [alt]="secondaryMainContentImage.text" />
+      <div class="overlay">
+        <div class="text">
+          <span>{{secondaryMainContentImage.text}}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
