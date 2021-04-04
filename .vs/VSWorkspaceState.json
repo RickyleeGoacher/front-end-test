@@ -10,6 +10,6 @@
     "\\src\\app\\components\\popup",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\components\\popup\\popup.component.html",
+  "SelectedNode": "\\src\\app\\components\\popup\\popup.component.ts",
   "PreviewInSolutionExplorer": false
 }
