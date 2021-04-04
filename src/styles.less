@@ -28,3 +28,83 @@ h1, h2, span {
 p {
   font-family: @secondary-font;
 }
+
+.swiper-container {
+  .swiper-wrapper {
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        min-height: 400px;
+      }
+
+      .text-container {
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: @secondary-colour;
+
+        h1 {
+          color: white;
+        }
+
+        button {
+          min-width: 100px;
+          min-height: 50px;
+          border: 0;
+          background-color: white;
+          border-radius: 4px;
+          color: @secondary-colour;
+        }
+      }
+    }
+  }
+}
+
+/*Stlyes for tablet > Desktop*/
+
+@media screen and (min-width: 769px) {
+  .swiper-container {
+    .swiper-wrapper {
+      .swiper-slide {
+        .text-container {
+          position: absolute;
+          align-items: flex-start;
+          width: 500px;
+          bottom: 50px;
+          left: 100px;
+
+          h1 {
+            margin-left: 2rem;
+          }
+
+          button {
+            margin-left: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Mobile specific styles*/
+
+@media screen and (max-width: 769px) {
+  .swiper-container {
+    .swiper-wrapper {
+      .swiper-slide {
+        .text-container {
+          width: 100%;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
