@@ -4,9 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
+    "\\src\\app\\components\\banner-image",
     "\\src\\app\\components\\navigation",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\styles.less",
+  "SelectedNode": "\\src\\app\\components\\banner-image\\banner-image.component.ts",
   "PreviewInSolutionExplorer": false
 }

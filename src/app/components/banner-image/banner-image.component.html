@@ -1,1 +1,20 @@
-<p>banner-image works!</p>
+<swiper [config]="config">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="../../../assets/images/hero-slider.jpg" alt="Hero Image" />
+      <div class="text-container">
+        <h1>Al Fresco Dining Anyone?</h1>
+        <button>Shop Now</button>
+      </div>
+    </div>
+    <div class="swiper-slide"><img src="../../../assets/images/hero-slider-2.jpg" alt="Hero Image" /></div>
+  </div>
+
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- Add Arrows -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</swiper>
+<div class="message-container"></div>

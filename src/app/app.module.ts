@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
@@ -16,7 +17,8 @@ import { PopupComponent } from './components/popup/popup.component';
     PopupComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxUsefulSwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
