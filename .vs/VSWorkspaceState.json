@@ -4,8 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\navigation"
+    "\\src\\app\\components\\navigation",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\index.html",
+  "SelectedNode": "\\src\\environments",
   "PreviewInSolutionExplorer": false
 }
